@@ -1,0 +1,40 @@
+nav {
+    height: 56px;
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left, rgba(90,90,90), rgba(120,120,120));
+    box-shadow: 0 10px 10px #ccc;
+  }
+  
+  /* Basic styles for nav links */
+  nav a {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 100%;
+    text-decoration: none;
+  }
+  
+  /* Specific styles for non-active links */
+  .link {
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 0.2rem;
+    
+  }
+
+  .link:hover {
+    transition: background 0.7s;
+    background: rgba(200, 200, 200, 0.5);
+  }
+  
+  /* Specific styles for active links */
+  .link-active {
+    font-size: 1.1rem;
+    background: rgba(200, 200, 200, 0.5);
+    color: black;
+    border-radius: 0.2rem;
+
+  }
